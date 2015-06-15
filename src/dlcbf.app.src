@@ -3,10 +3,6 @@
   {description, "d-left hash counting bloom filter"},
   {vsn, "0.0.1"},
   {registered, []},
-  {applications, [
-                  kernel,
-                  stdlib
-                 ]},
-  {mod, { dlht_app, []}},
+  {applications, [kernel, stdlib]},
   {env, []}
  ]}.
