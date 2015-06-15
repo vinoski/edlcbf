@@ -1,5 +1,7 @@
 *.beam
 *.o
-priv
-ebin
-.eunit
+priv/*
+ebin/*
+.eunit/*
+.rebar/*
+c_src/*.d
